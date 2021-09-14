@@ -1,13 +1,22 @@
 import React from 'react'
 import "./Employee.scss"
+import TicketCounter from '../TicketCounter/TicketCounter';
 
-const Employee = () => {
+const Employee = (props) => {
+    const {employeeArr} = props;
+
+    const employeeCard = employeeArr.map(employee => {
+        <div>
+            <h2>{employee.name}</h2>
+            <h2>{employee.role}</h2>
+        </div>
+    })
+
     return (
         <div className="ticket">
-            <h2>Name</h2>
-            <h2>Role</h2>
+            <div>{employeeCard}</div>
             <div className="ticket__counter">
-                
+                <TicketCounter />
             </div>
         </div>
     )
