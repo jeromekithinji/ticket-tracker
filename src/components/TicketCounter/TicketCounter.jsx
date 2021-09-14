@@ -9,8 +9,10 @@ const TicketCounter = () => {
         setCounter(counter + 1);
     };
 
-    const handleDecrement = () => {        
-        setCounter(counter - 1);
+    const handleDecrement = () => { 
+        if(counter > 0){
+            setCounter(counter - 1);
+        }
     };
 
     return (

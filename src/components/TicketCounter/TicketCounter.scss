@@ -2,9 +2,10 @@
     border: 2px solid green;
     margin: 20px;
     text-align: center;
+    font-size: 25px;    
 
     &__buttons {
         display: flex;
-        justify-content: space-evenly;    
+        justify-content: space-evenly;
     }
 }

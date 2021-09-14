@@ -1,5 +1,4 @@
-import './App.css';
-import TicketCounter from './components/TicketCounter/TicketCounter';
+import './App.scss';
 import employees from './employeeData.js';
 import Employee from './components/Employee/Employee';
 
@@ -9,8 +8,11 @@ function App() {
   })
 
   return (
-    <div className="">
-      <Employee employeeArr={filteredEmployees} />
+    <div className="App">
+      <h1>Ticket Tracker</h1>
+      <div className="employee-tickets">
+        <Employee employeeArr={filteredEmployees} />
+      </div>
     </div>
   );
 }

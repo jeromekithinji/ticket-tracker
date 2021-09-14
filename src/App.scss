@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.App{
+    text-align: center;
+    background-color: #FE4E00;
+}
+
+.employee-tickets{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 100%;
+}
