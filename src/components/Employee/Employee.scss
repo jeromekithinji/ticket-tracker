@@ -1,10 +1,14 @@
+@use "../../assets/styles/variables" as *;
+
 .ticket {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border: 1px solid black;
     margin: 10px;
-    width: 200px;
+    width: 300px;
+    height: 350px;
     text-align: center;
-    background-color: white;
+    background-color: $secondary-color;
+    padding: 10px;
 }

@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Ticket Tracker</h1>
+      <h1 className="ticket-header">Ticket Tracker</h1>
       <div className="employee-tickets">
         <Employee employeeArr={filteredEmployees} />
       </div>

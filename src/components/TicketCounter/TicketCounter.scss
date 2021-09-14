@@ -1,11 +1,18 @@
+@use "../../assets/styles/variables" as *;
+
 .counter {
-    border: 2px solid green;
+    border: 3px solid $primary-color;
     margin: 20px;
     text-align: center;
-    font-size: 25px;    
+    font-size: 25px;   
+    height: 100px;
+    padding-top: 10px;
 
     &__buttons {
         display: flex;
         justify-content: space-evenly;
+    }
+    &__buttons:hover {
+        cursor: pointer;
     }
 }

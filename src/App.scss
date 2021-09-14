@@ -1,3 +1,5 @@
+@use "./assets/styles/variables" as *;
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,11 +7,17 @@
 }
 .App{
     text-align: center;
-    background-color: #FE4E00;
+    background-color: $primary-color;
+    height: 100vh;
+    padding: 20px;
 }
 
 .employee-tickets{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    height: 100%;
+    // height: 100%;
+}
+
+.ticket-header {
+    color: $secondary-color;
 }
