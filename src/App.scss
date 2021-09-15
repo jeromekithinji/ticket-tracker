@@ -8,11 +8,14 @@
 .App{
     text-align: center;
     background-color: $primary-color;
-    height: 100vh;
+    height: 100%;
+    min-height: 960px;
     padding: 20px;
+    overflow: hidden;
 }
 
-.employee-tickets{
+.employee-tickets {
+    justify-items: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     // height: 100%;
@@ -20,4 +23,11 @@
 
 .ticket-header {
     color: $secondary-color;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .employee-tickets {
+        grid-template-columns: 1fr;
+    }
 }
