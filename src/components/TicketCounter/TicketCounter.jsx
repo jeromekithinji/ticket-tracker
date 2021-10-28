@@ -22,7 +22,6 @@ const TicketCounter = () => {
                 <p onClick={handleDecrement}>-</p>
                 <p onClick={handleIncrement}>+</p>
             </span>
-            
         </div>
     )
 }

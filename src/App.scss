@@ -1,6 +1,6 @@
 @use "./assets/styles/variables" as *;
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,26 +8,24 @@
 .App{
     text-align: center;
     background-color: $primary-color;
-    height: 100%;
-    min-height: 960px;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
-    overflow: hidden;
 }
 
 .employee-tickets {
-    justify-items: center;
+    overflow:visible;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    // height: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+
 }
 
 .ticket-header {
     color: $secondary-color;
     padding-bottom: 30px;
-}
-
-@media screen and (max-width: 768px) {
-    .employee-tickets {
-        grid-template-columns: 1fr;
-    }
 }

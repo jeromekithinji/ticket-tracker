@@ -7,14 +7,14 @@ function App() {
     return employee.name && employee.role;
   })
 
-  return (
-    <div className="App">
-      <h1 className="ticket-header">Ticket Tracker</h1>
-      <div className="employee-tickets">
-        <Employee employeeArr={filteredEmployees} />
-      </div>
-    </div>
-  );
+    return (
+        <div className="App">
+            <h1 className="ticket-header">Ticket Tracker</h1>
+            <div className="employee-tickets">
+                <Employee employeeArr={filteredEmployees} />
+            </div>
+        </div>
+);
 }
 
 export default App;
