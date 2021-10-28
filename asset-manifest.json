@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jeromekithinji/ticket-tracker/static/css/main.773026f5.chunk.css",
+    "main.js": "/jeromekithinji/ticket-tracker/static/js/main.469551d2.chunk.js",
+    "main.js.map": "/jeromekithinji/ticket-tracker/static/js/main.469551d2.chunk.js.map",
+    "runtime-main.js": "/jeromekithinji/ticket-tracker/static/js/runtime-main.396615e0.js",
+    "runtime-main.js.map": "/jeromekithinji/ticket-tracker/static/js/runtime-main.396615e0.js.map",
+    "static/js/2.e2e963bd.chunk.js": "/jeromekithinji/ticket-tracker/static/js/2.e2e963bd.chunk.js",
+    "static/js/2.e2e963bd.chunk.js.map": "/jeromekithinji/ticket-tracker/static/js/2.e2e963bd.chunk.js.map",
+    "static/js/3.3e090aba.chunk.js": "/jeromekithinji/ticket-tracker/static/js/3.3e090aba.chunk.js",
+    "static/js/3.3e090aba.chunk.js.map": "/jeromekithinji/ticket-tracker/static/js/3.3e090aba.chunk.js.map",
+    "index.html": "/jeromekithinji/ticket-tracker/index.html",
+    "static/css/main.773026f5.chunk.css.map": "/jeromekithinji/ticket-tracker/static/css/main.773026f5.chunk.css.map",
+    "static/js/2.e2e963bd.chunk.js.LICENSE.txt": "/jeromekithinji/ticket-tracker/static/js/2.e2e963bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.396615e0.js",
+    "static/js/2.e2e963bd.chunk.js",
+    "static/css/main.773026f5.chunk.css",
+    "static/js/main.469551d2.chunk.js"
+  ]
+}
