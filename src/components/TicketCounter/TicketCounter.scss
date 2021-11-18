@@ -12,7 +12,17 @@
         display: flex;
         justify-content: space-evenly;
     }
+
     &__buttons:hover {
         cursor: pointer;
+    }
+
+    &__button {
+        height: 40px;
+        width: 40px;
+        border-radius: 12px;
+        font-size: xx-large;
+        text-align: center;
+        background-color: lightgray;
     }
 }

@@ -19,8 +19,8 @@ const TicketCounter = ({ numberOfTickets }) => {
         <div className="counter">
             <p>{counter}</p>
             <span className="counter__buttons">
-                <p onClick={handleDecrement}>-</p>
-                <p onClick={handleIncrement}>+</p>
+                <p className="counter__button" onClick={handleDecrement}>-</p>
+                <p className="counter__button" onClick={handleIncrement}>+</p>
             </span>
         </div>
     )
