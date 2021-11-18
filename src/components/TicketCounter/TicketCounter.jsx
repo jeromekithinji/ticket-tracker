@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import "./TicketCounter.scss"
 
-const TicketCounter = () => {
+const TicketCounter = ({ numberOfTickets }) => {
 
-    const [counter, setCounter] = useState(0);
+    const [counter, setCounter] = useState(numberOfTickets);
 
     const handleIncrement = () => {        
         setCounter(counter + 1);

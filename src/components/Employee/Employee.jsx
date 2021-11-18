@@ -10,7 +10,7 @@ const Employee = (props) => {
             <h2>{employee.name}</h2>
             <h2>{employee.role}</h2>
             <div className="ticket__counter">
-                <TicketCounter />
+                <TicketCounter numberOfTickets={employee.numberOfTickets}/>
             </div>
         </div>
     ))
